@@ -158,21 +158,7 @@ $('.button-cart').keyup()
 
 }());
 
-   $('.button-cart').click(function () {
-        $.ajax({type: 'GET', url: 'https://byjasco.com/products/1309/add-to-cart'});
-    });
 
-
-$('.button-cart').click(function() {
-    $.ajax({
-        type:'POST', 
-        url: 'https://byjasco.com/products/1308/add-to-cart', 
-        data:$('#Form-id-selector').serialize(), 
-        success: function(response) {
-          // Any code to execute on a successful return
-        }
-    });
-});
     
 
 }
