@@ -71,6 +71,7 @@ $('.carousel-control').hover(function() {
           $('#view-cart').fadeIn('slow')
       })
  
+ 
 $('.button-cart').keyup()
 
 // End Cart

@@ -1,2 +1,0 @@
-plugins: [octopress-minify-html]
- # This will require each of these plugins automatically.

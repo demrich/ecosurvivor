@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </script>
 </div>
-<link rel="shortcut icon" href="http://blog.byjasco.com/hubfs/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />  
 <title>EcoSurvivor - {{ page.title }}</title>
 <meta name="Stand up to the elements and stand up to the water crisis" content="">
@@ -142,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul class="nav navbar-nav visible-md visible-sm visible-xs ">
         <li class="hidden"> <a href="#page-top"></a> </li>
            <li class="dropdown">
-              <a href="./shop-all-products.html">Shop</b></a>
+              <a href="./shop-all-products.html">Shop</a>
 
             </li>
 
@@ -190,7 +190,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    </div>
    <div class="col-md-4"><h3>Need Help?</h3>
     <a href="https://byjasco.com/support?__hstc=9449450.16c4dd6c7a540924c2eca2a8c50d5bf4.1493745355533.1499806897776.1499974563493.28&__hssc=9449450.1.1499974563493&__hsfp=2096103622" target="_blank" alt="Visit Support">Visit Support</a><br>
-    <a href="https://byjasco.com/support/surge-protector-registration?__hstc=9449450.16c4dd6c7a540924c2eca2a8c50d5bf4.1493745355533.1499806897776.1499974563493.28&__hssc=9449450.1.1499974563493&__hsfp=2096103622" target="_blank" alt="Register Your Product">Register your product</a><br>
     <a href="https://byjasco.com/products?__hstc=9449450.16c4dd6c7a540924c2eca2a8c50d5bf4.1493745355533.1499806897776.1499974563493.28&__hssc=9449450.1.1499974563493&__hsfp=2096103622" target="_blank" alt="Jasco Online Store">Jasco Online Store</a><br>
 
 
@@ -230,7 +229,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="col-md-12"> 
       <div class="bottom-box">
       <span class="footer-info"><a href="https://byjasco.com/trademark-information" target="_blank">Trademark Information</a> &nbsp;|&nbsp;<a href="https://byjasco.com/terms-and-conditions" target="_blank">Terms and Conditions</a> &nbsp;|&nbsp;<a href="https://byjasco.com/privacy-policy" target="_blank">Privacy Policy</a> </span><br>
-      <span class"footer-info"> &copy; 2017 Jasco Products Company.</span>
+      <span class="footer-info"> &copy; 2017 Jasco Products Company.</span>
       </div>
     </div>
   </div>
@@ -250,7 +249,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </script>
 </div>-->
-</div>
 
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
@@ -322,7 +320,6 @@ $('.single-item').slick();
 $('.carousel-selector').slick({
 arrows: false
 });
-
 </script>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -332,6 +329,23 @@ sz.src = '//siteimproveanalytics.com/js/siteanalyze_6013300.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
 })();
 /*]]>*/
+</script>
+<script>
+        function addCart(str, button) {
+        button.classList.add('cart-progress');
+    document.getElementById('result').src=str
+    document.getElementById('result').onload = function() {
+        return function() { 
+		updateBtn(); 
+		}
+    }
+	();
+      }
+      function updateBtn() {
+        // Update button.
+        var button = document.getElementsByClassName('cart-progress')[0];
+        button.disabled = true;
+      }
 </script>
 </body>
 </html>
