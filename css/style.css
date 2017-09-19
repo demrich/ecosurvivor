@@ -739,7 +739,7 @@ padding-top: 30px;
 
 	}
 	 #intro {
-			 background: url(../img/intro-bg.jpg);
+			 background: url(../img/forest-header.jpg);
 			 overflow: hidden;
 
 
@@ -1804,6 +1804,10 @@ ol.type li a:hover {
 
 }
 
+.shop-img {
+	display: inline-block;
+}
+
 
 
 #shopProducts h1{
@@ -1871,6 +1875,7 @@ ol.type li a:hover {
 #shop-head {
 	padding: 0px;
 	background: #000;
+	overflow: hidden;
 
 }
 
@@ -1900,8 +1905,10 @@ ol.type li a:hover {
 
     .slick-prev:before,
     .slick-next:before {
-        color: #f47b2d;
+		color: #000;
+		font-size:35px;
 	}
+	
 	
 
 
@@ -2519,7 +2526,7 @@ display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 	left: 0;
 }
 #shop-head .slick-next {
-	right: 0;
+	right: 15px; 
 }
 #shop-head .slick-dots {
   bottom: 0px;
