@@ -10,71 +10,14 @@ title: Shop All
       <div class="no-padding col-md-12" >
   
   <section class="regular slider single-item">
-  
+   {% for product in site.products %}
       <div>
-          <a href="https://byjasco.com/products/adjustable-beam-ecosurvivor-headlamp?subtheme=ecosurvivor" target="_blank">
-            <img src="./img/39033header.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/39033headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
+          <a href="{{ product.jasco_link}}" target="_blank">
+            <img src="{{ product.header }}" class="img-responsive visible-lg visible-xl">
+           <img src="{{ product.header_mobile }}" class="img-responsive visible-xs visible-sm visible-md">
           </a>
         </div>  
-  
-        <div>
-            <a href="https://byjasco.com/products/ecosurvivor-pyramid-tent-light?subtheme=ecosurvivor" target="_blank">
-              <img src="./img/39034header.jpg" class="img-responsive visible-lg visible-xl">
-             <img src="./img/39034headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-            </a>
-          </div>        
-  
-      <div>
-          <a href="https://byjasco.com/products/ecosurvivor-power-failure-led-night-light?subtheme=ecosurvivor" target="_blank">
-            <img src="./img/37807header.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/37807headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-  
-      <div>
-        <a href="https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable?subtheme=ecosurvivor" target="_blank">
-       <img src="./img/37598big.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/37598small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-        </a>
-      </div>    
-      
-      <div>
-        <a href="https://byjasco.com/products/ecosurvivor-35mm-audio-cable?subtheme=ecosurvivor" target="_blank">
-       <img src="./img/36405big.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/36405small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-        </a>
-      </div>    
-      
-      <div>
-      <a href="https://byjasco.com/products/ecosurvivor-usb-lightning-cable?subtheme=ecosurvivor" target="_blank">
-       <img src="./img/37597big.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/37597small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-      </a>
-      </div> 
-  
-      <div>
-      <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-green-camo?subtheme=ecosurvivor" target="_blank">
-       <img src="./img/11225header.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/11225headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-      </a>
-      </div> 
-  
-  
-      <div>
-      <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-orange-camo?subtheme=ecosurvivor" target="_blank">
-       <img src="./img/14200header.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/14200headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-      </a>
-      </div> 
-  
-  
-      <div>
-      <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-pink-camo?subtheme=ecosurvivor" target="_blank">
-       <img src="./img/11238header.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/11238headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-      </a>
-      </div> 
+    {% endfor %}
   
     </section>
   
