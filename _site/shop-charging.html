@@ -6,12 +6,7 @@
 <style type="text/css">
     .hidden {display:none;}
   </style>
-  <script type="text/javascript">
-    $('html').addClass('hidden');
-    $(document).ready(function() {    
-      $('html').show();  
-     });  
-   </script>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -41,7 +36,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />  
-<title>EcoSurvivor - Shop All</title>
+<title>EcoSurvivor - Charging Devices</title>
 <meta name="Stand up to the elements and stand up to the water crisis" content="">
 <meta name="author" content="">
 
@@ -59,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6379196/7758572/css/fonts.css" />
-<link rel="stylesheet" type="text/css"  href="./css/style.css?ver=1.7">
+<link rel="stylesheet" type="text/css"  href="./css/style.css?ver=2.0">
 <link rel="stylesheet" type="text/css" href="./css/prettyPhoto.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -111,9 +106,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="hidden"> <a href="#page-top"></a> </li>
-           <li>
-              <a href="./shop-all-products.html" data-toggle="dropdown" class="dropdown-toggle disabled" id="dropdown-link">Shop</a>
-                
+           <li class="dropdown">
+              <a href="./shop-all-products.html" data-toggle="dropdown" class="dropdown-toggle disabled" id="dropdown-link">Shop<b class="caret"></b></a>
+              <ul class="dropdown-menu dropdown-item">
+                     
+                  <li><a href="shop-audio.html">Audio</a></li>
+                     
+                  <li><a href="shop-lighting.html">Lighting</a></li>
+                     
+                  <li><a href="shop-charging.html">Charging</a></li>
+                  
+              </ul>
             </li>
 
            <li> <a class="navbar-brand brand" href="./index.html"> <img src="./img/eco-logo.png" width="125" class="img-responsive visible-lg visible-xl" alt="EcoSurvivor header logo"></a> </li>
@@ -123,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li class="hidden"> <a href="#page-top"></a> </li>
            <li class="dropdown">
               <a href="./products.html" data-toggle="dropdown" class="dropdown-toggle disabled" id="dropdown-link">Learn <b class="caret"></b></a>
-                <ul class="dropdown-menu" id="dropdown-item">
+                <ul class="dropdown-menu dropdown-item">
                     <li><a href="./products.html">Products</a></li>
                     <li><a href="./purpose.html">Purpose</a></li>
                     <li><a href="./about.html">About Us</a></li>
@@ -141,7 +144,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul class="nav navbar-nav visible-md visible-sm visible-xs ">
         <li class="hidden"> <a href="#page-top"></a> </li>
            <li class="dropdown">
-              <a href="./shop-all-products.html">Shop</a>
+              <a href="./shop-all-products.html" data-toggle="dropdown" class="dropdown-toggle">Shop <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li><a href="./shop-all-products.html">All</a></li>                  
+                   
+                <li><a href="shop-audio.html">Audio</a></li>
+                
+                   
+                <li><a href="shop-lighting.html">Lighting</a></li>
+                
+                   
+                <li><a href="shop-charging.html">Charging</a></li>
+                
+                
+                  </ul>
 
             </li>
 
@@ -172,213 +188,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- Product Hero Image Section -->
 <div id="shop-head">
-    <div class="container-fluid">
-      <div id="shop-carousel" >
-      <div class="no-padding col-md-12" >
-  
-  <section class="regular slider single-item">
-   
-      <div>
-          <a href="https://byjasco.com/products/ecosurvivor-35mm-audio-cable" target="_blank">
-            <img src="./img/36405big.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/36405small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/eco-survivor-battery-pack-9000mah" target="_blank">
-            <img src="./img/35671big.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/35671small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/eco-survivor-bluetooth-speaker" target="_blank">
-            <img src="./img/34425big.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/34425small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/ecosurvivor-sports-clip-active-earbuds" target="_blank">
-            <img src="./img/37602header.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/37602headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-green-camo" target="_blank">
-            <img src="./img/11225header.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/11225headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-orange-camo" target="_blank">
-            <img src="./img/14200header.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/14200headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-pink-camo" target="_blank">
-            <img src="./img/11238header.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/11238headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/ecosurvivor-usb-lightning-cable" target="_blank">
-            <img src="./img/37597big.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/37597small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-      <div>
-          <a href="https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable" target="_blank">
-            <img src="./img/37598big.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/37598small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-          </a>
-        </div>  
-    
-  
-    </section>
-  
+        <div class="container-fluid">
+          <div id="shop-carousel" >
+          <div class="no-padding col-md-12" >
+      <section class="regular slider single-item">
       
-  
-      </div>   
-      </div> 
-  </div>
-  </div>
-  
-
-<!-- Shop Products Section -->
-<div id="shopProducts">
-
-  <div class="container">
-  <div id="productHeader">
-    <h1>All Products </h1>
-  </div>
-  
-
-
-  
-<div class="row">
+                
+          <div>
+              <a href="https://byjasco.com/products/eco-survivor-battery-pack-9000mah" target="_blank">
+               <img src="./img/35671big.jpg" class="img-responsive visible-lg visible-xl">
+               <img src="./img/35671small.jpg" class="img-responsive visible-xs visible-sm visible-md">
+              </a>          
+          </div>  
+                
+          <div>
+              <a href="https://byjasco.com/products/ecosurvivor-usb-lightning-cable" target="_blank">
+               <img src="./img/37597big.jpg" class="img-responsive visible-lg visible-xl">
+               <img src="./img/37597small.jpg" class="img-responsive visible-xs visible-sm visible-md">
+              </a>          
+          </div>  
+                
+          <div>
+              <a href="https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable" target="_blank">
+               <img src="./img/37598big.jpg" class="img-responsive visible-lg visible-xl">
+               <img src="./img/37598small.jpg" class="img-responsive visible-xs visible-sm visible-md">
+              </a>          
+          </div>  
+      
+        </section>
+          </div>   
+          </div> 
+      </div>
+    </div>
+      
     
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/ecosurvivor-35mm-audio-cable" target="_blank">
-        <img src="./img/products/36405.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor 3.5mm Audio Cable</span><br>
-         <span class="price">$14.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1307/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
+    <!-- Shop Products Section -->
+    <div id="shopProducts">
+      <div class="container">
+      <div id="productHeader">
+        <h1>Charging Devices </h1>
+      </div>
     
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/eco-survivor-battery-pack-9000mah" target="_blank">
-        <img src="./img/products/35671.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor Battery Pack 9000mAh</span><br>
-         <span class="price">$49.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1311/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
     
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/eco-survivor-bluetooth-speaker" target="_blank">
-        <img src="./img/products/34425.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor Bluetooth Speaker</span><br>
-         <span class="price">$79.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1310/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
     
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/ecosurvivor-sports-clip-active-earbuds" target="_blank">
-        <img src="./img/products/37602.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor Sports Clip Active Earbuds</span><br>
-         <span class="price">$19.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1311/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
+      
+        
+          <div class="row">
+                
+              <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
+                <a href=" https://byjasco.com/products/eco-survivor-battery-pack-9000mah?subtheme=ecosurvivor&__hstc=181257784.fefcc063461cfaebc8e8a6d9389ba8fe.1506010749741.1506010749741.1506010749741.1&__hssc=181257784.7.1506010749741&__hsfp=1530820022" target="_blank">
+                  <img src="./img/products/35671.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
+                <div class="shop-caption">
+                  <span class="prod-title"> EcoSurvivor Battery Pack 9000mAh</span><br>
+                  <span class="price">$49.99</span><br>
+                  <button class="button-cart" onClick="addCart('https://byjasco.com/products/1311/add-to-cart', this)">Add to Cart</button>
+              </div>
+              </div>
+                
+              <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
+                <a href=" https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable?subtheme=ecosurvivor&__hstc=181257784.fefcc063461cfaebc8e8a6d9389ba8fe.1506010749741.1506010749741.1506010749741.1&__hssc=181257784.7.1506010749741&__hsfp=1530820022" target="_blank">
+                  <img src="./img/products/37598.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
+                <div class="shop-caption">
+                  <span class="prod-title"> EcoSurvivor Micro Usb Charging Cable</span><br>
+                  <span class="price">$14.99</span><br>
+                  <button class="button-cart" onClick="addCart('https://byjasco.com/products/1309/add-to-cart', this)">Add to Cart</button>
+              </div>
+              </div>
+                
+              <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
+                <a href=" https://byjasco.com/products/ecosurvivor-usb-lightning-cable?subtheme=ecosurvivor&__hstc=181257784.fefcc063461cfaebc8e8a6d9389ba8fe.1506010749741.1506010749741.1506010749741.1&__hssc=181257784.7.1506010749741&__hsfp=1530820022" target="_blank">
+                  <img src="./img/products/37597.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
+                <div class="shop-caption">
+                  <span class="prod-title"> EcoSurvivor USB to Lightning Cable</span><br>
+                  <span class="price">$24.99</span><br>
+                  <button class="button-cart" onClick="addCart('https://byjasco.com/products/1308/add-to-cart', this)">Add to Cart</button>
+              </div>
+              </div>
+              
+          </div>
+      
     
-</div>
-
-  
-<div class="row">
+    </div>
+    <iframe id="result"style="width:0; height:0; border:0; border:none"></iframe>
+    </div>
     
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/realtree-ecosurvivor-led-lantern-green-camo" target="_blank">
-        <img src="./img/products/11225.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor Green LED Lantern</span><br>
-         <span class="price">$44.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/701/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
     
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/realtree-ecosurvivor-led-lantern-orange-camo" target="_blank">
-        <img src="./img/products/14200.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor Orange LED Lantern</span><br>
-         <span class="price">$39.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/700/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
     
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/realtree-ecosurvivor-led-lantern-pink-camo" target="_blank">
-        <img src="./img/products/11238.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor Pink LED Lantern</span><br>
-         <span class="price">$39.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/702/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
-    
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/ecosurvivor-usb-lightning-cable" target="_blank">
-        <img src="./img/products/37597.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor USB to Lightning Cable</span><br>
-         <span class="price">$24.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1308/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
-    
-</div>
-
-  
-<div class="row">
-    
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
-       <a href=" https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable" target="_blank">
-        <img src="./img/products/37598.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title"> EcoSurvivor Micro Usb Charging Cable</span><br>
-         <span class="price">$14.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1309/add-to-cart', this)">Add to Cart</button>
-     </div>
-     </div>
-    
-</div>
-
-  
-<div class="row">
-    
-</div>
-
-
-
-</div>
-<iframe id="result"style="width:0; height:0; border:0; border:none"></iframe>
-</div>
-
-
 
 
 <hr>

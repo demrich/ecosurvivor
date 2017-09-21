@@ -7,4 +7,5 @@ header_mobile: ./img/36405small.jpg
 image_path: ./img/products/36405.1.png
 addcart_link: https://byjasco.com/products/1307/add-to-cart
 category: audio
+rating: 1
 ---

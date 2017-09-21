@@ -45,9 +45,9 @@ function main () {
 //Fades Home Menus
 
 $('ul.nav li.dropdown').hover(function() {
-  $(this).find('#dropdown-item').stop(true, true).delay(200).fadeIn('fast');
+  $(this).find('.dropdown-item').stop(true, true).delay(200).fadeIn('fast');
 }, function() {
-  $(this).find('#dropdown-item').stop(true, true).delay(200).fadeOut('fast');
+  $(this).find('.dropdown-item').stop(true, true).delay(200).fadeOut('fast');
 });
 
 
@@ -119,33 +119,7 @@ $('.button-cart').keyup()
 
 
 
-  	// Portfolio Isotope Filter
-    $(window).load(function() {
-        var $container = $('.portfolio-items');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-        $('.cat a').click(function() {
-            $('.cat .active').removeClass('active');
-            $(this).addClass('active');
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
 
-    });
 	
   
     

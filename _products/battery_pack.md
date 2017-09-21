@@ -7,4 +7,5 @@ header_mobile: ./img/35671small.jpg
 image_path: ./img/products/35671.1.png
 addcart_link: https://byjasco.com/products/1311/add-to-cart
 category: charging 
+rating: 7
 ---

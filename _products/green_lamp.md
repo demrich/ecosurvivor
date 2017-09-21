@@ -7,4 +7,5 @@ header_mobile: ./img/11225headersmall.jpg
 image_path: ./img/products/11225.png
 addcart_link: https://byjasco.com/products/701/add-to-cart
 category: lighting
+rating: 8
 ---

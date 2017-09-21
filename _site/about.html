@@ -6,12 +6,7 @@
 <style type="text/css">
     .hidden {display:none;}
   </style>
-  <script type="text/javascript">
-    $('html').addClass('hidden');
-    $(document).ready(function() {    
-      $('html').show();  
-     });  
-   </script>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -59,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6379196/7758572/css/fonts.css" />
-<link rel="stylesheet" type="text/css"  href="./css/style.css?ver=1.7">
+<link rel="stylesheet" type="text/css"  href="./css/style.css?ver=2.0">
 <link rel="stylesheet" type="text/css" href="./css/prettyPhoto.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -111,9 +106,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="hidden"> <a href="#page-top"></a> </li>
-           <li>
-              <a href="./shop-all-products.html" data-toggle="dropdown" class="dropdown-toggle disabled" id="dropdown-link">Shop</a>
-                
+           <li class="dropdown">
+              <a href="./shop-all-products.html" data-toggle="dropdown" class="dropdown-toggle disabled" id="dropdown-link">Shop<b class="caret"></b></a>
+              <ul class="dropdown-menu dropdown-item">
+                     
+                  <li><a href="shop-audio.html">Audio</a></li>
+                     
+                  <li><a href="shop-lighting.html">Lighting</a></li>
+                     
+                  <li><a href="shop-charging.html">Charging</a></li>
+                  
+              </ul>
             </li>
 
            <li> <a class="navbar-brand brand" href="./index.html"> <img src="./img/eco-logo.png" width="125" class="img-responsive visible-lg visible-xl" alt="EcoSurvivor header logo"></a> </li>
@@ -123,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li class="hidden"> <a href="#page-top"></a> </li>
            <li class="dropdown">
               <a href="./products.html" data-toggle="dropdown" class="dropdown-toggle disabled" id="dropdown-link">Learn <b class="caret"></b></a>
-                <ul class="dropdown-menu" id="dropdown-item">
+                <ul class="dropdown-menu dropdown-item">
                     <li><a href="./products.html">Products</a></li>
                     <li><a href="./purpose.html">Purpose</a></li>
                     <li><a href="./about.html">About Us</a></li>
@@ -141,7 +144,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul class="nav navbar-nav visible-md visible-sm visible-xs ">
         <li class="hidden"> <a href="#page-top"></a> </li>
            <li class="dropdown">
-              <a href="./shop-all-products.html">Shop</a>
+              <a href="./shop-all-products.html" data-toggle="dropdown" class="dropdown-toggle">Shop <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li><a href="./shop-all-products.html">All</a></li>                  
+                   
+                <li><a href="shop-audio.html">Audio</a></li>
+                
+                   
+                <li><a href="shop-lighting.html">Lighting</a></li>
+                
+                   
+                <li><a href="shop-charging.html">Charging</a></li>
+                
+                
+                  </ul>
 
             </li>
 

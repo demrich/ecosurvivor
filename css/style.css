@@ -666,7 +666,7 @@ background-color: #f47b2d;
 border-radius: 10px !important;
 }
 
-#dropdown-item {
+.dropdown-item {
 
 font-size: 12px;
 letter-spacing: 2px;
@@ -787,6 +787,10 @@ padding-top: 30px;
 
 
 }
+
+.slick-dots {
+	display: none !important;
+}
 }
 
 @media(min-width:1024px) {
@@ -794,6 +798,8 @@ padding-top: 30px;
 	height: 100%;
 	padding: 0;
 }
+
+
 
 #intro .intro-body .intro-text {
 	font-size: 18px;

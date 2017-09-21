@@ -5,6 +5,7 @@ jasco_link: https://byjasco.com/products/ecosurvivor-sports-clip-active-earbuds
 header: ./img/37602header.jpg
 header_mobile: ./img/37602headersmall.jpg
 image_path: ./img/products/37602.png
-addcart_link: https://byjasco.com/products/1311/add-to-cart
-category: charging 
+addcart_link: https://byjasco.com/products/1318/add-to-cart
+category: audio 
+rating: 8
 ---

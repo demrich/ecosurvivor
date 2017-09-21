@@ -1,280 +1,60 @@
 ---
 layout: default
-title: Shop All
+title: All Products
 ---
 
 <!-- Product Hero Image Section -->
 <div id="shop-head">
-  <div class="container-fluid">
-    <div id="shop-carousel" >
-		<div class="no-padding col-md-12" >
-
-<section class="regular slider single-item">
-
-    <div>
-        <a href="https://byjasco.com/products/adjustable-beam-ecosurvivor-headlamp?subtheme=ecosurvivor" target="_blank">
-          <img src="./img/39033header.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/39033headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-        </a>
-      </div>  
-
+    <div class="container-fluid">
+      <div id="shop-carousel" >
+      <div class="no-padding col-md-12" >
+  
+  <section class="regular slider single-item">
+   {% for product in site.products %}
       <div>
-          <a href="https://byjasco.com/products/ecosurvivor-pyramid-tent-light?subtheme=ecosurvivor" target="_blank">
-            <img src="./img/39034header.jpg" class="img-responsive visible-lg visible-xl">
-           <img src="./img/39034headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
+          <a href="{{ product.jasco_link}}" target="_blank">
+            <img src="{{ product.header }}" class="img-responsive visible-lg visible-xl">
+           <img src="{{ product.header_mobile }}" class="img-responsive visible-xs visible-sm visible-md">
           </a>
-        </div>        
-
-    <div>
-        <a href="https://byjasco.com/products/ecosurvivor-power-failure-led-night-light?subtheme=ecosurvivor" target="_blank">
-          <img src="./img/37807header.jpg" class="img-responsive visible-lg visible-xl">
-         <img src="./img/37807headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-        </a>
-      </div>  
-
-    <div>
-      <a href="https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable?subtheme=ecosurvivor" target="_blank">
-     <img src="./img/37598big.jpg" class="img-responsive visible-lg visible-xl">
-       <img src="./img/37598small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-      </a>
-    </div>    
-    
-    <div>
-      <a href="https://byjasco.com/products/ecosurvivor-35mm-audio-cable?subtheme=ecosurvivor" target="_blank">
-     <img src="./img/36405big.jpg" class="img-responsive visible-lg visible-xl">
-       <img src="./img/36405small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-      </a>
-    </div>    
-    
-    <div>
-    <a href="https://byjasco.com/products/ecosurvivor-usb-lightning-cable?subtheme=ecosurvivor" target="_blank">
-     <img src="./img/37597big.jpg" class="img-responsive visible-lg visible-xl">
-       <img src="./img/37597small.jpg" class="img-responsive visible-xs visible-sm visible-md">
-    </a>
-    </div> 
-
-    <div>
-    <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-green-camo?subtheme=ecosurvivor" target="_blank">
-     <img src="./img/11225header.jpg" class="img-responsive visible-lg visible-xl">
-       <img src="./img/11225headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-    </a>
-    </div> 
-
-
-    <div>
-    <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-orange-camo?subtheme=ecosurvivor" target="_blank">
-     <img src="./img/14200header.jpg" class="img-responsive visible-lg visible-xl">
-       <img src="./img/14200headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-    </a>
-    </div> 
-
-
-    <div>
-    <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-pink-camo?subtheme=ecosurvivor" target="_blank">
-     <img src="./img/11238header.jpg" class="img-responsive visible-lg visible-xl">
-       <img src="./img/11238headersmall.jpg" class="img-responsive visible-xs visible-sm visible-md">
-    </a>
-    </div> 
-
-  </section>
-
-    
-
-    </div>   
-    </div> 
-</div>
-</div>
+        </div>  
+    {% endfor %}
+  
+    </section>
+  
+      
+  
+      </div>   
+      </div> 
+  </div>
+  </div>
+  
 
 <!-- Shop Products Section -->
 <div id="shopProducts">
 
   <div class="container">
   <div id="productHeader">
-    <h1>All Products </h1>
-   
-
-  </div>
-<div class="row">
-    <div class="prod col-sm-6 col-md-6 col-lg-3 ">
-       <a href="https://byjasco.com/products/ecosurvivor-usb-lightning-cable?subtheme=ecosurvivor" target="_blank">
-        <img src="./img/products/37597.1.png" class="img-responsive shop-img" style="text-align:center;"></a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor USB to <br>Lightning Cable</span><br>
-         <span class="price">$24.99</span><br>
-
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1308/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-
-     </div>
-     </div>
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3 ">
-      <a href="https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable?subtheme=ecosurvivor" target="_blank">
-      <img src="./img/products/37598.1.png" class="img-responsive shop-img">
-      </a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor Micro USB <br>Charging Cable</span><br>
-         <span class="price">$14.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1309/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-     </div>
-    </div>
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3 ">
-      <a href="https://byjasco.com/products/ecosurvivor-35mm-audio-cable?subtheme=ecosurvivor"  target="_blank">
-      <img src="./img/products/36405.1.png" class="img-responsive shop-img">
-      </a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor 3.5mm<br> Audio Cable</span><br>
-         <span class="price">$14.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1307/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-     </div>
-    </div>
-
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-      <a href="https://byjasco.com/products/eco-survivor-bluetooth-speaker?subtheme=ecosurvivor" target="_blank">
-      <img src="./img/products/34425.1.png" class="img-responsive shop-img">
-      </a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor <br>Bluetooth Speaker</span><br>
-         <span class="price">$79.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1310/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-        </div>
-    </div>
-    
+    <h1>{{ page.title }} </h1>
   </div>
   
-    
-  <div class="row">
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-       <a href="https://byjasco.com/products/eco-survivor-battery-pack-9000mah?subtheme=ecosurvivor" target="_blank">
-      <img src="./img/products/35671.1.png" class="img-responsive shop-img">
-       </a>
+{% assign rows = site.products.size | divided_by: 2 %}
+{% assign sorted = site.products | sort: 'rating' | reverse %}
+{% for i in (1..rows) %}
+  {% assign offset = forloop.index0 | times: 4 %}
+<div class="row">
+    {% for product in sorted limit:4 offset:offset %}
+    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
+       <a href=" {{ product.jasco_link }}?subtheme=ecosurvivor&__hstc=181257784.fefcc063461cfaebc8e8a6d9389ba8fe.1506010749741.1506010749741.1506010749741.1&__hssc=181257784.7.1506010749741&__hsfp=1530820022" target="_blank">
+        <img src="{{ product.image_path }}" class="img-responsive shop-img" style="text-align:center;"></a>
       <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor Battery Pack <br>9000mAh</span><br>
-         <span class="price">$49.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1311/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-        </div>
-    </div>
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-     <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-orange-camo?subtheme=ecosurvivor" target="_blank">
-      <img src="./img/products/14200.png" class="img-responsive shop-img">
-     </a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor <br>Orange LED Lantern</span><br>
-         <span class="price">$39.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/700/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
+         <span class="prod-title"> {{ product.title }}</span><br>
+         <span class="price">{{ product.price }}</span><br>
+         <button class="button-cart" onClick="addCart('{{ product.addcart_link }}', this)">Add to Cart</button>
      </div>
-    </div>
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-    <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-green-camo?subtheme=ecosurvivor" target="_blank">
-      <img src="./img/products/11225.png" class="img-responsive shop-img">
-    </a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor <br>Green LED Lantern</span><br>
-         <span class="price">$44.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/701/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
      </div>
-    </div>
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-      <a href="https://byjasco.com/products/realtree-ecosurvivor-led-lantern-pink-camo?subtheme=ecosurvivor" target="_blank">
-      <img src="./img/products/11238.png" class="img-responsive shop-img">
-      </a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor <br>Pink LED Lantern</span><br>
-         <span class="price">$39.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/702/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-     </div>
-    </div>
-    
+    {% endfor %}
 </div>
-
-<div class="row">
-  
-      <div class="prod col-sm-6 col-md-6 col-lg-3">
-        <a href="https://byjasco.com/products/ecosurvivor-sports-clip-active-earbuds" target="_blank">
-        <img src="./img/products/37602.png" class="img-responsive shop-img">
-        </a>
-        <div class="shop-caption">
-           <span class="prod-title">EcoSurvivor <br>Sports Clip Active Earbuds</span><br><br>
-           <span class="price">$19.99</span><br>
-           <button class="button-cart" onClick="addCart('https://byjasco.com/products/1318/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-          </div>
-      </div> 
-      
-      <div class="prod col-sm-6 col-md-6 col-lg-3">
-          <a href="https://byjasco.com/products/ecosurvivor-power-failure-led-night-light" target="_blank">
-          <img src="./img/products/37807-1.png" class="img-responsive shop-img">
-          </a>
-          <div class="shop-caption">
-             <span class="prod-title">EcoSurvivor <br>Power Failure LED Night Light</span><br><br>
-             <span class="price">$12.99</span><br>
-             <button class="button-cart" onClick="addCart('https://byjasco.com/products/1319/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>             
-         </div>
-        </div>       
-
-        <div class="prod col-sm-6 col-md-6 col-lg-3">
-          <a href="https://byjasco.com/products/ecosurvivor-6d-usb-lantern-rubberized-gray?subtheme=ecosurvivor" target="_blank">
-          <img src="./img/products/39616.png" class="img-responsive shop-img">
-          </a>
-          <div class="shop-caption">
-             <span class="prod-title">EcoSurvivor <br>6D USB Charging Lantern</span><br><br>
-             <span class="price">$44.99</span><br>
-             <button class="button-cart" onClick="addCart('https://byjasco.com/products/1322/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-            </div>
-        </div> 
-
-        <div class="prod col-sm-6 col-md-6 col-lg-3">
-          <a href="https://byjasco.com/products/ecosurvivor-touch-activated-compact-lantern?subtheme=ecosurvivor" target="_blank">
-          <img src="./img/products/38659.png" class="img-responsive shop-img">
-          </a>
-          <div class="shop-caption">
-             <span class="prod-title">EcoSurvivor <br>Touch Activated Compact Lantern</span><br><br>
-             <span class="price">$29.99</span><br>
-             <button class="button-cart" onClick="addCart('https://byjasco.com/products/1320/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-            </div>
-        </div> 
-
-  </div>
-
-  <div class="row">
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-      <a href="https://byjasco.com/products/ecosurvivor-motion-sensing-compact-lantern?subtheme=ecosurvivor" target="_blank">
-      <img src="./img/products/38660.png" class="img-responsive shop-img">
-      </a>
-      <div class="shop-caption">
-         <span class="prod-title">EcoSurvivor <br>Motion Sensing Compact Lantern (Gray)</span><br>
-         <span class="price">$29.99</span><br>
-         <button class="button-cart" onClick="addCart('https://byjasco.com/products/1321/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>
-        </div>
-    </div>
-
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-        <a href="https://byjasco.com/products/adjustable-beam-ecosurvivor-headlamp" target="_blank">
-          <img src="./img/products/39033.png" alt="EcoSurvivor Adjustable Beam Headlamp" style="max-width:100%;" />
-         </a>
-            <div class="shop-caption">
-            <span class="prod-title">EcoSurvivor Adjustable Beam Headlamp</span><br><br>
-            <span class="price">$24.99</span><br>
-            <button class="button-cart" onClick="addCart('https://byjasco.com/products/1323/add-to-cart?subtheme=ecosurvivor', this)">Add to Cart</button>                        
-           </div>
-    </div>       
-    
-    <div class="prod col-sm-6 col-md-6 col-lg-3">
-        <a href="https://byjasco.com/products/ecosurvivor-pyramid-tent-light" target="_blank">
-          <img src="./img/products/39034.png" alt="EcoSurvivor Pyramid Tent Light" style="max-width:100%;" />
-         </a>
-            <div class="shop-caption">
-            <span class="prod-title">EcoSurvivor<br>Pyramid Tent Light</span><br><br>
-            <span class="price">$9.99</span><br>
-            <button class="button-cart" onClick="addCart('https://byjasco.com/products/1324/add-to-cart', this)">Add to Cart</button>                        
-           </div>
-    </div>
-  </div>
-
+{% endfor %}
 
 
 </div>
