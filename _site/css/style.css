@@ -462,6 +462,13 @@ background-size: cover;
 	} 
 }
 
+@media (min-width: 1024px)  {
+	
+	.mobile.brand{
+		display: none;
+	} 
+}
+
 @media(min-width:1025px) {
 
 /* change navbar li colors */
