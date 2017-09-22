@@ -10,7 +10,7 @@ title: All Products
       <div class="no-padding col-md-12" >
   
   <section class="regular slider single-item">
-   {% for product in site.products %}
+   {% for product in site.data.products.docs %}
       <div>
           <a href="{{ product.jasco_link}}" target="_blank">
             <img src="{{ product.header }}" class="img-responsive visible-lg visible-xl">
@@ -37,13 +37,13 @@ title: All Products
     <h1>{{ page.title }} </h1>
   </div>
   
-{% assign rows = site.products.size | divided_by: 2 %}
-{% assign sorted = site.products | sort: 'rating' | reverse %}
+{% assign rows = site.data.products.docs.size | divided_by: 2 %}
+{% assign sorted = site.data.products.docs | sort: 'rating' | reverse %}
 {% for i in (1..rows) %}
   {% assign offset = forloop.index0 | times: 4 %}
 <div class="row">
     {% for product in sorted limit:4 offset:offset %}
-    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
+    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center vbottom">
        <a href=" {{ product.jasco_link }}?subtheme=ecosurvivor&__hstc=181257784.fefcc063461cfaebc8e8a6d9389ba8fe.1506010749741.1506010749741.1506010749741.1&__hssc=181257784.7.1506010749741&__hsfp=1530820022" target="_blank">
         <img src="{{ product.image_path }}" class="img-responsive shop-img" style="text-align:center;"></a>
       <div class="shop-caption">

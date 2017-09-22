@@ -1,0 +1,152 @@
+docs_list_title: Products
+docs:
+
+- title: EcoSurvivor 3.5mm Audio Cable
+  price: $14.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-35mm-audio-cable
+  header: ./img/36405big.jpg
+  header_mobile: ./img/36405small.jpg
+  image_path: ./img/products/36405.1.png
+  addcart_link: https://byjasco.com/products/1307/add-to-cart
+  category: audio
+  rating: 1
+  
+- title: EcoSurvivor Battery Pack 9000mAh
+  price: $49.99
+  jasco_link: https://byjasco.com/products/eco-survivor-battery-pack-9000mah
+  header: ./img/35671big.jpg
+  header_mobile: ./img/35671small.jpg
+  image_path: ./img/products/35671.1.png
+  addcart_link: https://byjasco.com/products/1311/add-to-cart
+  category: charging 
+  rating: 7
+
+- title: EcoSurvivor Bluetooth Speaker
+  price: $79.99
+  jasco_link: https://byjasco.com/products/eco-survivor-bluetooth-speaker
+  header: ./img/34425big.jpg
+  header_mobile: ./img/34425small.jpg
+  image_path: ./img/products/34425.1.png
+  addcart_link: https://byjasco.com/products/1310/add-to-cart
+  category: audio
+  rating: 10
+
+- title: EcoSurvivor 6D USB Charging Lantern
+  price: $44.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-6d-usb-lantern-rubberized-gray
+  header: ./img/39616header.jpg
+  header_mobile: ./img/39616headersmall.jpg
+  image_path: ./img/products/39616.png
+  addcart_link: https://byjasco.com/products/1322/add-to-cart
+  category: lighting charging
+  rating: 9
+  
+- title: EcoSurvivor Sports Clip Active Earbuds
+  price: $19.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-sports-clip-active-earbuds
+  header: ./img/37602header.jpg
+  header_mobile: ./img/37602headersmall.jpg
+  image_path: ./img/products/37602.png
+  addcart_link: https://byjasco.com/products/1318/add-to-cart
+  category: audio 
+  rating: 8
+
+- title: EcoSurvivor Green LED Lantern
+  price: $44.99
+  jasco_link: https://byjasco.com/products/realtree-ecosurvivor-led-lantern-green-camo
+  header: ./img/11225header.jpg
+  header_mobile: ./img/11225headersmall.jpg
+  image_path: ./img/products/11225.png
+  addcart_link: https://byjasco.com/products/701/add-to-cart
+  category: lighting
+  rating: 8
+
+- title: EcoSurvivor Adjustable Beam Headlamp
+  price: $24.99
+  jasco_link: https://byjasco.com/products/adjustable-beam-ecosurvivor-headlamp
+  header: ./img/39033header.jpg
+  header_mobile: ./img/39033headersmall.jpg
+  image_path: ./img/products/39033.png
+  addcart_link: https://byjasco.com/products/1323/add-to-cart
+  category: lighting
+  rating: 6  
+
+- title: EcoSurvivor Motion Activated Compact Lantern
+  price: $29.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-motion-sensing-compact-lantern
+  header: ./img/38660header.jpg
+  header_mobile: ./img/38660headersmall.jpg
+  image_path: ./img/products/38660.png
+  addcart_link: https://byjasco.com/products/1321/add-to-cart
+  category: lighting
+  rating: 7
+
+- title: EcoSurvivor Orange LED Lantern
+  price: $39.99
+  jasco_link: https://byjasco.com/products/realtree-ecosurvivor-led-lantern-orange-camo
+  header: ./img/14200header.jpg
+  header_mobile: ./img/14200headersmall.jpg
+  image_path: ./img/products/14200.png
+  addcart_link: https://byjasco.com/products/700/add-to-cart
+  category: lighting
+  rating: 8
+
+- title: EcoSurvivor Pink LED Lantern
+  price: $39.99
+  jasco_link: https://byjasco.com/products/realtree-ecosurvivor-led-lantern-pink-camo
+  header: ./img/11238header.jpg
+  header_mobile: ./img/11238headersmall.jpg
+  image_path: ./img/products/11238.png
+  addcart_link: https://byjasco.com/products/702/add-to-cart
+  category: lighting
+  rating: 8
+
+- title: EcoSurvivor Power Failure LED Night Light
+  price: $12.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-power-failure-led-night-light
+  header: ./img/37807header.jpg
+  header_mobile: ./img/37807headersmall.jpg
+  image_path: ./img/products/37807-1.png
+  addcart_link: https://byjasco.com/products/1319/add-to-cart
+  category: lighting
+  rating: 6
+
+- title: EcoSurvivor Pyramid Tent Light
+  price: $9.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-pyramid-tent-light
+  header: ./img/39034header.jpg
+  header_mobile: ./img/39034headersmall.jpg
+  image_path: ./img/products/39034.png
+  addcart_link: https://byjasco.com/products/1324/add-to-cart
+  category: lighting
+  rating: 7
+
+- title: EcoSurvivor Touch Activated Compact Lantern
+  price: $29.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-touch-activated-compact-lantern
+  header: ./img/38659header.jpg
+  header_mobile: ./img/38659headersmall.jpg
+  image_path: ./img/products/38659.png
+  addcart_link: https://byjasco.com/products/1320/add-to-cart
+  category: lighting
+  rating: 6
+
+- title: EcoSurvivor USB to Lightning Cable
+  price: $24.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-usb-lightning-cable
+  header: ./img/37597big.jpg
+  header_mobile: ./img/37597small.jpg
+  image_path: ./img/products/37597.1.png
+  addcart_link: https://byjasco.com/products/1308/add-to-cart
+  category: charging
+  rating: 1
+
+- title: EcoSurvivor Micro Usb Charging Cable
+  price: $14.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-usb-micro-charging-cable
+  header: ./img/37598big.jpg
+  header_mobile: ./img/37598small.jpg
+  image_path: ./img/products/37598.1.png
+  addcart_link: https://byjasco.com/products/1309/add-to-cart
+  category: charging
+  rating: 1

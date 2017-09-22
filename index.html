@@ -38,8 +38,8 @@ title: Home
     	     <section class="regular slider responsive">
 
 
-        {% assign sorted = site.products | sort: 'rating' | reverse %}
-        {% for product in site.products %}
+        {% assign sorted = site.data.products.docs | sort: 'rating' | reverse %}
+        {% for product in site.data.products.docs %}
       <div>
       <a href="{{ product.jasco_link }}" target="_blank">
       <img src="{{ product.image_path }}" alt="EcoSurvivor LED Lantern (Orange Camo)" style="max-width:100%;" />
