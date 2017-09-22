@@ -456,43 +456,10 @@ background-size: cover;
 }
 
 @media (max-width: 1024px)  {
-    .navigatsioon ul.nav.navbar-nav{
-    margin-left:-15px;
-}
-   .navigatsioon .navbar-header {
-        float: none;
-    }
-    .navigatsioon .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navigatsioon .navbar-toggle {
-        display: block;
-    }
-    .navigatsioon .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navigatsioon .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-   .navigatsioon .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navigatsioon .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-   .navigatsioon .navbar-nav>li {
-        float: none;
-    }
-    .navigatsioon .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .navigatsioon .collapse.in{
-        display:block !important;
-    }
+	
+	ul.nav.navbar-nav.desktop {
+		display: none;
+	} 
 }
 
 @media(min-width:1025px) {
