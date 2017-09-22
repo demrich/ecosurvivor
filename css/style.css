@@ -2642,8 +2642,12 @@ padding: 73px 0;
 }
 }
 
-.vbottom {
+.bottom-column
+{
+    float: none;
     display: inline-block;
     vertical-align: bottom;
-    float: none;
 }
+
+
+
