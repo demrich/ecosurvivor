@@ -32,7 +32,7 @@ title: All Products
 <!-- Shop Products Section -->
 <div id="shopProducts">
 
-  <div class="container-fluid">
+  <div class="container">
   <div id="productHeader">
     <h1>{{ page.title }} </h1>
   </div>
@@ -43,7 +43,7 @@ title: All Products
   {% assign offset = forloop.index0 | times: 4 %}
 <div class="row">
     {% for product in sorted limit:4 offset:offset %}
-    <div class="prod col-sm-6 col-md-6 col-lg-3 bottom-column">
+    <div class="prod col-sm-6 col-md-6 col-lg-3 text-center">
        <a href=" {{ product.jasco_link }}?subtheme=ecosurvivor&__hstc=181257784.fefcc063461cfaebc8e8a6d9389ba8fe.1506010749741.1506010749741.1506010749741.1&__hssc=181257784.7.1506010749741&__hsfp=1530820022" target="_blank">
         <img src="{{ product.image_path }}" class="img-responsive shop-img" style="text-align:center;"></a>
       <div class="shop-caption">

@@ -1786,6 +1786,7 @@ ol.type li a:hover {
 
 .shop-img {
 	display: inline-block;
+	width: 450px;
 }
 
 
@@ -2623,8 +2624,6 @@ padding: 73px 0;
 #help-solve-this{
 	background: url(../img/help-solve-this.jpg) no-repeat center center;
 	background-size: cover;
-
-
 }
 
 }
@@ -2641,13 +2640,3 @@ padding: 73px 0;
     box-shadow: none;
 }
 }
-
-.bottom-column
-{
-    float: none;
-    display: inline-block;
-    vertical-align: bottom;
-}
-
-
-
